@@ -1,3 +1,5 @@
+/*DOM */
+
 var h1 = document.querySelector("h1");
 var id = (id) => document.getElementById(id);
 var classes = (classes) => document.getElementsByClassName(classes);
@@ -15,7 +17,7 @@ starFill = classes("starClicked"),
 goYourFavoriteHerosButton = classes("buttonHead");
 
 
-
+/*Card, Favorite and remove buttons that save to local storage and remove them */
 
 favButton[0].addEventListener("click", (e)=>{
     e.preventDefault();
@@ -124,7 +126,7 @@ favButton[0].addEventListener("click", (e)=>{
   })
 
 
-
+/*SPA */
 
 var favoriteHeroPage = () => {
     h1.innerHTML= "Your Favorite Heros"
@@ -133,7 +135,7 @@ var favoriteHeroPage = () => {
     card3.innerHTML= "";
     card4.innerHTML= "";
     card5.innerHTML= "";
-
+/*GetItem property */
     var x = localStorage.getItem("Spider-man")
     card1.innerHTML = x;
 
@@ -149,7 +151,7 @@ var favoriteHeroPage = () => {
     var x = localStorage.getItem("Crash")
     card5.innerHTML = x;
 }
-
+/*calling functions */
 goYourFavoriteHerosButton[0].addEventListener("click", favoriteHeroPage);
 goYourFavoriteHerosButton[0].addEventListener("click", (e) => {
     e.preventDefault();
