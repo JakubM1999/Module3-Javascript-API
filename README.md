@@ -1,5 +1,5 @@
 <h1>Module3-Javascript-API </h1>
-<h2>LINK:</h2>
+<h2>LINK:https://jakubm1999.github.io/Module3-Javascript-APIs/index.html</h2>
 <p>Hello, In this assignment I wanted to do some sort of catalog where you have cards and can choose your favorite hero, then go to a diffrend page through SPA to see your favorite heros that you choose. I figured that I'll create "catalog" of heros that I know form my childhood so I did 5 cards, each card containes title of the hero, a star so you know that you have choosen this specific hero, an image of a hero and last but not least a button "favorite". When you click this button the content of the card goes to local storage but then the button changes into Remove from favorite, I use the localSotrage.removeItem property and basicaly reversed the favorite function so that it removes item from the local storage. when you have chosen you can click "your favorite heros" and what this button does is that it has two functions.</p>
 
 <p>first function is: that it changes the inner html so that is the SPA part of this project.</p>
