@@ -10,6 +10,6 @@
 
 <p>If you want to remove a hero after you refresh wensite you can click twice on the button on the card of the hero tha you want to remove.</p>
 
-<p>I worked a lot on this project and I did my best but I think that it could be bit ambisous and needs more time to be finished, also that's why there are somethings that needs fix like when you go into the "Your favorite hero" there is no "go back" button and you need to refresh to go back or when you refresh the state of the button and star are gone(does not effect the local storage), I think that these are just minor things, bacause the functionality is still there.</p>
+<p>I worked a lot on this project, I learned a lot by making this site and I did my best, I am confident that I gained the required skilles and knowledge. I think that it could be bit ambisous and needs more time to be finished, also that's why there are somethings that needs fix like when you go into the "Your favorite hero" there is no "go back" button and you need to refresh to go back or when you refresh the state of the button and star are gone(does not effect the local storage), I think that these are just minor things, bacause the functionality is still there.</p>
 
 <p>I Hope you like it, and maybe these characters will bring back some memories :) </p>
