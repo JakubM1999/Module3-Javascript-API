@@ -73,24 +73,6 @@ h2{
     background-color: #AB7100;
 }
 
-.buttonHead2{
-    position: absolute;
-    float: right;
-    background-color: #FFA800;
-    border: none;
-    font-size: 15pt;
-    padding:15px;
-    border-radius: 10px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    box-shadow: 1px 1px 15px lightgray;
-    margin-left: 1450px;
-    display: none;
-}
-.buttonHead2:hover{
-    background-color: #AB7100;
-}
-
 .button{
     width: 300px;
     border: none;

@@ -12,8 +12,8 @@ var favButton = classes("button"),
 remButton = classes("button2"),
 starOutline = classes("starNotClicked"),
 starFill = classes("starClicked"),
-goYourFavoriteHerosButton = classes("buttonHead"),
-goBackButton = classes("buttonHead2");
+goYourFavoriteHerosButton = classes("buttonHead");
+
 
 
 
@@ -124,6 +124,8 @@ favButton[0].addEventListener("click", (e)=>{
   })
 
 
+
+
 var favoriteHeroPage = () => {
     h1.innerHTML= "Your Favorite Heros"
     card1.innerHTML= "";
@@ -152,6 +154,5 @@ goYourFavoriteHerosButton[0].addEventListener("click", favoriteHeroPage);
 goYourFavoriteHerosButton[0].addEventListener("click", (e) => {
     e.preventDefault();
     goYourFavoriteHerosButton[0].style.display = "none";
-    
 
 })
